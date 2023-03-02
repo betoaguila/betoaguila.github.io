@@ -1,0 +1,364 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #e34413;
+    
+  }
+  .logo img {
+    width: 190px;
+    height: 160px;
+    border-radius: 20px;
+
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #aa2403;
+  }
+  
+  /* Estilos del hero section */
+  #hero {
+    background-image: url("img/cortes\ finos.png");
+    background-size: cover;
+    background-position: center;
+    color: #f31905;
+    text-align: center;
+    padding: 180px 20px;
+   
+  }
+  
+  #hero h1 strong {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    
+    text-shadow: #32f306 1px 2px 1px;
+    border-radius: 30px;
+    padding: -10px;
+    
+  }
+  #hero h1 strong:hover {
+    background-color: #32f306;
+    box-shadow: #bcdd27;
+  }
+  #hero h1 span strong {
+    color: #2a06f3;
+    
+    text-shadow: #32f306 1px 2px 1px;
+    border-radius: 30px;
+    
+    padding: -10px;
+  }
+
+  #hero h1 span strong:hover {
+    background-color: #5cd23b;
+    box-shadow: #e3f306 2px 2px 2px;
+  }
+  
+  .mejor {
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #e00d90;
+    text-shadow: #d9e806 1px 1px ;
+    font-weight:bolder;
+    text-align: center;
+  }
+  .activado {
+    animation-name: destello;
+  }
+  .destello {
+    animation: destello 1s ease infinite;
+  }
+  
+  @keyframes destello {
+    0% {
+      opacity: 5;
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Estilos del section de productos */
+  #productos {
+    padding: 50px;
+    
+  }
+  .linea{
+border-width: 5px;
+border-radius: 15px;
+border-width: 15px;
+  }
+  #productos h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #productos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #productos li {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  #productos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #productos h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #productos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+ .cazo {
+border-radius: 20px;
+
+  }
+ .sabado span{
+    color: #ec0404;
+    font-weight: bolder;
+  }
+  /* Estilos del section de promociones */
+  #promociones {
+    background-color: #f0edea;
+    padding: 50px;
+    
+  }
+  
+  #promociones h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-shadow: #f0f804 2px 2px;
+    font-size: 50px;
+    color: #060606;
+  }
+  
+  #promociones ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #promociones li {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  #promociones h3 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    color: #0e0c0c;
+    font-weight: bolder;
+    text-shadow: #1ded06 2px 2px;
+  }
+  
+  #promociones p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+   font-weight: bolder;
+   font-size: 30px;
+   text-shadow: #e3f306 2px 2px;
+  }
+  #promociones {
+    background-image: url(img/corte-de-carne-res.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+  }
+  
+  
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.gif{
+  margin: -40px;
+}
+body, html, #app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  overflow: hidden;
+  touch-action: pan-up;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+}
+
+#app h1 {
+  --fontSize: 60px;
+  --lineHeight: 80px;
+  width: auto;
+  height: calc(2 * var(--lineHeight));
+  line-height: var(--lineHeight);
+  margin: calc(50vh - var(--lineHeight)) auto 0;
+  font-size: var(--fontSize);
+  text-transform: uppercase;
+}
+
+#app a {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+#app canvas {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+.gift{
+border-radius: 10px;
+height: 650px;
+width: 400px;
+
+}
+.body{
+background-color: #049ed7;
+padding: 10px;
+}
+li h3 {
+  color: blue;
+}
+#btn-goto-top {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #ab5b8a;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+th {
+  background-color: #21dfbc;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+tr:nth-child(even) {
+  font-weight: bolder;
+  background-color: #6b86dd;
+
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+footer p{
+color: #e90404;
+background-color: #049ed7;
+font-weight: bolder;
+}
