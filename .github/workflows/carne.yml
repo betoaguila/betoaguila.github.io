@@ -1,0 +1,16 @@
+name: deploy de la pagina
+on:
+push:
+branches:
+-main
+deploy-pages:
+runs-on: windows
+steps:
+     name: Checkout
+       uses: actions/checkout@2.3.1
+
+       name: deploy
+       uses: James Ives/github-pagesdeploy-action@4.1.4
+       whith:
+       branch:gh-pages # the branch the action should deploy to. 
+       folder: public . # the folder the actio should deploy.
